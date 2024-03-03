@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:linear-gradient(rgba(0, 0, 0, 0.736),rgba(0, 0, 0, 0.759)), url('fondo7.png') ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h2{
+    color: white!important;
+    font-family: 'Times New Roman', Times, serif;
+}
+#d{
+    float: left;
+}
+body nav ul li a{
+    color: white !important;
+}
+body nav div a{
+    color: white !important;
+}
+nav{
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    padding: 10px 130px;
+}
+nav ul li a{
+    color:rgb(255, 255, 255)51, 0;
+    text-decoration: none;
+}
+.main .articles{
+    width: 50%;
+    margin-right: 50%;
+}
+p{
+    color:white;
+}
+#ti{
+    color:white;
+}
+.wrapper{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(min(11.25cem,100%),1fr));
+    grid-gap: 1rem;
+}
+
+footer{
+    color: white;
+}

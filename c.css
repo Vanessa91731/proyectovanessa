@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:linear-gradient(rgba(0, 0, 0, 0.867),rgba(0, 0, 0, 0.673)), url('fondo2.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    color: rgb(115, 160, 182);
+} 
+
+.imgRedonda {
+    width:250px;
+    height:250px;
+    border-radius:160px;
+}
+.wrapper{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(min(11.25cem,100%),1fr));
+    grid-gap: 1rem;
+}
+nav{
+    background-color: beige;
+}
